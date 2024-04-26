@@ -19,6 +19,21 @@
             box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
             width: 100%;
         }
+        .equal-height {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .card {
+            flex: 1 0 30%; /* Adjusts the width of the card to about a third of the container */
+            margin-bottom: 20px;
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+        }
+        .card-text, .card-link {
+            margin-top: auto; /* Pushes content to the bottom */
+        }
     </style>
 </head>
 <body>
@@ -31,64 +46,74 @@
             </div>
         </div>
 
-        <div class="row mt-4">
-            <div class="col-md-4">
-                <div class="card mb-3">
-                    <div class="card-body">
+        <div class="row mt-4 equal-height">
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Hotel Eins</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Hochzeitsallee 123, Brautstadt, BC 12345</h6>
                         <p class="card-text">Telefon: (123) 456-7890</p>
-                        <a href="http://example.com" class="card-link" target="_blank">Website besuchen</a>
+                        <a href="http://example.com" class="card-link mt-auto" target="_blank">Website besuchen</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-3">
-                    <div class="card-body">
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Hotel Zwei</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Feierstraße 456, Bräutigamstadt, GT 67890</h6>
                         <p class="card-text">Telefon: (321) 654-0987</p>
-                        <a href="http://example.com" class="card-link" target="_blank">Website besuchen</a>
+                        <a href="http://example.com" class="card-link mt-auto" target="_blank">Website besuchen</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-3">
-                    <div class="card-body">
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Hotel Drei</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Tanzplatz Weg 789, Feststadt, FS 13579</h6>
                         <p class="card-text">Telefon: (555) 123-4567</p>
-                        <a href="http://example.com" class="card-link" target="_blank">Website besuchen</a>
+                        <a href="http://example.com" class="card-link mt-auto" target="_blank">Website besuchen</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-3">
-                    <div class="card-body">
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Hotel Vier</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Glückstraße 101, Harmoniestadt, HS 24680</h6>
                         <p class="card-text">Telefon: (666) 789-0123</p>
-                        <a href="http://example.com" class="card-link" target="_blank">Website besuchen</a>
+                        <a href="http://example.com" class="card-link mt-auto" target="_blank">Website besuchen</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-3">
-                    <div class="card-body">
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Hotel Fünf</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Liebesallee 202, Herzensstadt, HS 67890</h6>
                         <p class="card-text">Telefon: (777) 654-3210</p>
-                        <a href="http://example.com" class="card-link" target="_blank">Website besuchen</a>
+                        <a href="http://example.com" class="card-link mt-auto" target="_blank">Website besuchen</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-3">
-                    <div class="card-body">
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Hotel Sechs</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Traumpfad 11, Liebesdorf, LD 11111</h6>
                         <p class="card-text">Telefon: (888) 987-6543</p>
-                        <a href="http://example.com" class="card-link" target="_blank">Website besuchen</a>
+                        <a href="http://example.com" class="card-link mt-auto" target="_blank">Website besuchen</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Hotel Sieben</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Freudenweg 314, Glückstadt, GC 15926</h6>
+                        <p class="card-text">Telefon: (999) 123-9876</p>
+                        <a href="http://example.com" class="card-link mt-auto" target="_blank">Website besuchen</a>
                     </div>
                 </div>
             </div>
