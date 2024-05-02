@@ -1487,6 +1487,7 @@
 }
 .icon-dribbble:before {
   content: "\ea65";
+  font-size: 16px;
 }
 .icon-facebook-with-circle:before {
   content: "\ea66";

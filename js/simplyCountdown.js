@@ -122,13 +122,13 @@
                 minutes: 0,
                 seconds: 0,
                 words: {
-                    days: 'day',
-                    hours: 'hour',
-                    minutes: 'minute',
-                    seconds: 'second',
+                    days: 'tage',
+                    hours: 'stunden',
+                    minutes: 'minuten',
+                    seconds: 'sekunden',
                     pluralLetter: 's'
                 },
-                plural: true,
+                plural: false,
                 inline: false,
                 enableUtc: true,
                 onEnd: function () {
