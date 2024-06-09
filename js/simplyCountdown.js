@@ -122,7 +122,7 @@
                 minutes: 0,
                 seconds: 0,
                 words: {
-                    days: 'tage',
+                    days: 'tagen',
                     hours: 'stunden',
                     minutes: 'minuten',
                     seconds: 'sekunden',
